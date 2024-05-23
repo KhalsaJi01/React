@@ -30,6 +30,8 @@ int main(){
     cout<<v.size()<<endl;
     bool isEmpty=v.empty();// this function is used to check wheter the vector is empty or not it return 1 when empty and 0 when not empty
     cout<< isEmpty;
+    vector<int> v1(v);//it is used to copy the content of the v in v1
+    vector<int> v2(n,0); // this means ehre n is the size of the array we want to initialize the vector of n size and value will be 0 for every array value 
     
     return 0;
 }
